@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get instagram users</title>
+  </head>
+  <body></body>
+  <script>
+    var url =
+      "https://www.artstation.com/users/inhyuklee85/projects.json?page=1";
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+
+    xhr.setRequestHeader("Host", "www.artstation.com");
+    xhr.setRequestHeader(
+      "Cookie",
+      '__stripe_mid=3db4509d-ff0d-4a16-a32f-aeb7270d0bc7e01a71; visitor-uuid=73466c9c-7801-4266-bb3d-533fa7314596; G_ENABLED_IDPS=google; PRIVATE-CSRF-TOKEN=9XaQBP9YnV60vyPENWo9Pn0uc%2FUnasNhd6f3LizrVZU%3D; country_code=BR; continent_code=SA; _ga=GA1.2.1676000087.1635620073; _gid=GA1.2.442355091.1635620073; _ym_uid=1635620073969026416; _ym_d=1635620073; _fbp=fb.1.1635620072866.1416711912; _ym_isad=2; G_AUTHUSER_H=0; _hjid=30ff1bef-f1ef-44f5-a93b-162e35a62161; _hjShownFeedbackMessage=true; g_state={"i_l":2,"i_p":1635714029853}; _ym_hostIndex=0-5%2C1-1; __cf_bm=p5vFLMp861OcEO5GPm598WBcLyYP4fs5fjRX7zhF8tg-1635632648-0-AXHRAuG75M6y4xyJMwveD3cYh9LuegNmNKmrjMOyFluORwjUU6ayVD8N1a4dR2IqfPT1/7HroUBDNYgjrI7ZChcrtowQsvFibFKluNId9+g+; __stripe_sid=7ce878d1-e17c-40bb-bd51-e2ad934c088d9b5a3b; _ArtStation_session=Rm1Sa0NVZ3B3Y1VnaEt6TDVvNTF4RVR3U05XWnNUTDI2dVRSSVB1WmVIdlk2ekVsZ2orVlkwYjlEWVF3K3lBSm9hVEdIcUhPcTl0b0RabXY3MFY0bEJJa1ZhOGN1VjBiWjRtZW1KTUtuR0pJd1FtRm5lcmxxTHN5K3lYQjBndlU2eWlnZGxVVTdDZ0VqNTFwc1VIelhEZ1JBY0cxUHMyOStpTHNJWVlLOE9kTmpYY1FXMFlZZzcwRTlXYlhnWUlMTk11RkQrOEJKYy9LOUMvTmJxZDlQVlpHOGlOTmVZMlQrODMvZ0VlNlNycz0tLXJEZ0o1eW01L2tQb2hUdEZmNy94Unc9PQ%3D%3D--1fafc44cb0e951fe59b53650d8292b9a75694e48'
+    );
+    xhr.setRequestHeader(
+      "sec-ch-ua",
+      '"Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"'
+    );
+    xhr.setRequestHeader("sec-ch-ua-mobile", "?0");
+    xhr.setRequestHeader("dnt", "1");
+    xhr.setRequestHeader("upgrade-insecure-requests", "1");
+    xhr.setRequestHeader(
+      "user-agent",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+    );
+    xhr.setRequestHeader(
+      "accept",
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    );
+    xhr.setRequestHeader("sec-fetch-site", "none");
+    xhr.setRequestHeader("Origin", "*");
+    xhr.setRequestHeader("sec-fetch-mode", "navigate");
+    xhr.setRequestHeader("sec-fetch-user", "?1");
+    xhr.setRequestHeader("sec-fetch-dest", "document");
+    xhr.setRequestHeader(
+      "accept-language",
+      "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+    );
+    xhr.setRequestHeader(
+      "if-none-match",
+      'W/"8d32b04f149ac42ebfc33574fb858e89"'
+    );
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        console.log(xhr.status);
+        console.log(xhr.responseText);
+      }
+    };
+
+    xhr.send();
+  </script>
+</html>
