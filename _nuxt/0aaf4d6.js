@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[29],{346:function(e,t,n){"use strict";n.r(t);var l={},r=n(45),component=Object(r.a)(l,(function(){var e=this.$createElement,t=this._self._c||e;return t("div",{staticClass:"app"},[t("UserProfile")],1)}),[],!1,null,null,null);t.default=component.exports;installComponents(component,{UserProfile:n(342).default})}}]);
