@@ -1,6 +1,6 @@
 {
   "name": "Feitofreela app",
-  "short_name": "short name",
+  "short_name": "FeitoFreela",
   "description": "lelala description",
   "icons": [
     {
@@ -46,9 +46,9 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "/?standalone=true",
   "display": "standalone",
-  "background_color": "#66c66c",
-  "theme_color": "#312f40",
+  "background_color": "#000",
+  "theme_color": "#222",
   "lang": "pt-br"
 }
