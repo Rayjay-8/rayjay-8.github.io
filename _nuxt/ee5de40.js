@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[33],{516:function(n,t,e){"use strict";e.r(t);t.default={small:function(n){return n.width<=600},medio:function(n){return n.width>600},grande:function(n){return n.width>1200}}}}]);
