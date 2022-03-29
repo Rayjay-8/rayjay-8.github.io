@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{645:function(t,e,n){"use strict";n.r(e);var c={props:{porcent:{default:0}}},r=n(73),component=Object(r.a)(c,(function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticClass:"app"},[n("h3",[t._v(t._s(t.porcent)+"%")])])}),[],!1,null,"5503163f",null);e.default=component.exports}}]);

@@ -1,11 +1,4 @@
 /*!
-  * focus-trap-vue v0.0.4
-  * (c) 2019 Eduardo San Martin Morote
-  * @license MIT
-  */
-
-
-/*!
   * vue-router v3.5.2
   * (c) 2021 Evan You
   * @license MIT
@@ -35,6 +28,13 @@
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
  */
+
+
+/*!
+  * focus-trap-vue v0.0.4
+  * (c) 2019 Eduardo San Martin Morote
+  * @license MIT
+  */
 
 
 /**
