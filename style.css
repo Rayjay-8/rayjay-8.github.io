@@ -46,7 +46,7 @@ main{
 }
 
 .filme{
-   width: 50vw;
+   /* width: 80vw; */
    aspect-ratio: 16/9;
 }
 
